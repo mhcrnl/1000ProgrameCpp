@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1475033361 source:/home/mhcrnl/Desktop/Year2016/1000ProgrameCpp/000SalutRomania/main.cpp
+	<iostream>
+	"useSizeof.h"
+
+1475033361 /home/mhcrnl/Desktop/Year2016/1000ProgrameCpp/000SalutRomania/useSizeof.h
+	<iostream>
+
+1475033361 source:/home/mhcrnl/Desktop/Year2016/1000ProgrameCpp/000SalutRomania/useSizeof.cpp
+	"useSizeof.h"
+
