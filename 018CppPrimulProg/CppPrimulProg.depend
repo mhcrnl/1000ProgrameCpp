@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1477832711 source:/home/mhcrnl/Desktop/Year2016/October/CppPrimulProg/clasfile.cpp
+	"clasfile.h"
+
+1477832711 /home/mhcrnl/Desktop/Year2016/October/CppPrimulProg/clasfile.h
+	<iostream>
+
+1477829614 source:/home/mhcrnl/Desktop/Year2016/October/CppPrimulProg/main.cpp
+	<iostream>
+	"clasfile.h"
+
