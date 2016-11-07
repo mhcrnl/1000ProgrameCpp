@@ -12,20 +12,23 @@ using namespace std;
 int main()
 {
     //cout << "Hello world!" << endl;
-    int testCases, price, i,c, a, n;
+    int testCases, price, c, a, n;
+    cout << "Introduceti numarul de cazuri pe care le doriti analizate: ";
     cin >> testCases;
 
     while(testCases--){
         c = 0;
+        cout<<"Introduceti bugetul de care dispuneti: ";
         cin >> price;
 
         n = price%2048;
-        //cout<<"n = "<<n<<endl;
+        cout<<"n = "<< price <<" % 2048 => " << n<<endl;
         a =price/2048;
-        //cout <<"a = "<< a <<endl;
+        cout <<"a = "<< price <<" / 2048 => " << a <<endl;
         while(n){
             if((n%2)== 1) c++;
             n=n/2;
+            //cout<<n + " " +c<<endl;
         }
         cout<<"\n"<<a+c<<endl;
     }
