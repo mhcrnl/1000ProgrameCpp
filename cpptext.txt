@@ -1,0 +1,54 @@
+cpptext.txt
+
+:Author: mhcrnl
+:Email: mhcrnl@mhcrnl-desktop
+:Date: 2016-11-15 17:59
+
+4.4.1 Array of pointers
+
+	ptrarr= new int *[rows];
+
+Pointerul returnat de new este de tipul int**.
+
+4.4.5 Array of pointers
+
+	for(int r=0;r<rows; r++)
+		ptrarr[r] = new int[columns];
+
+- alocarea memoriei pt fiecare rows si stocarea acesteia in elementul alocat.
+
+4.4.6 Array of pointers
+
+	ptrarr[r][c] = 0;
+
+4.4.7 Array of pointers
+
+	ptrarr[r] is *(ptrarr + r); //dereferentierea elementului ce pointeaza catre rows selectat.
+
+	*(*(ptrarr  +r) +c) is ptrarr[r][c];
+
+4.1.8 Triangular matrices 
+--au dimensiunea diferita fata de cele normale.
+4.2.1 What is a conversion?
+--este schimbarea unei variabile la un alt tip de date insa fara ai schimba valoarea.
+--long data = 1;
+----automata realizata de compilator
+----implicita de programator
+4.2.2 Implicit conversions
+--compilatorul decide cand au loc acestea: int>float; float>long; double>int
+4.2.3 Explicit conversions
+--stilul c: (new_type_name) expresion_of_old_type
+--notatia functională: new_type_name(expresion_of_old_type)
+---Ambele notații au același mod de operare asupra tipurilor de bază dar pt.obiecte este utilizat tipul functional
+----Ex: int k = int(f) + (int)d;
+
+
+
+
+
+
+
+
+
+
+
