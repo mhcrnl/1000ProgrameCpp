@@ -41,6 +41,62 @@ Pointerul returnat de new este de tipul int**.
 --notatia functională: new_type_name(expresion_of_old_type)
 ---Ambele notații au același mod de operare asupra tipurilor de bază dar pt.obiecte este utilizat tipul functional
 ----Ex: int k = int(f) + (int)d;
+4.2.4 Conversions - gains and losses
+  short s = 32767; int i = s; aceste doua valori vor fi egale
+4.2.5 Conversions - gains and losses
+  intt i = 2147483647; short s =i; aceste valori nu mai vor fi egale se pierde din valoare.
+4.2.6 Conversions - gains and losses
+  float f - 1234.45678; double d =f; cele două valori sunt egale
+4.2.7 Conversions - gains and losses
+  double d = 12345.67843567; float f = d; acum acestea nu mai sunt egale.
+4.2.8 Conversions - gains and losses
+  Modificările din float in int au pierderi de valoare.
+4.2.9 Promotions
+  Promotions implica conversia intr-un program la modul cel mai sigur.
+short>>char>>int
+float>>double
+Promotions go first int(Short) + int(Char)
+double((int(Short)+int(char))+double(Float)) conversie la Double
+4.3.1 What is a string?
+  string - is a set of characters
+	#include <string>
+	string PetName;
+-the string type is not a build-in type, string nu este un cuvant cheie.
+4.3.2 Initiliazing a string
+  string PetName = "Lassie"; -string always use quotes, și această expresie trebuie văzută cu dublu sens ca un tip de date și ca o entitate constituită dintr-un numar finit de caractere.
+4.3.3 Initiliazing a string
+  string PetName("Lassie"); alta modalitate de inițializare, ambele forme de inițializare sunt la fel.
+4.3.4 Initiliazing a string
+  string IsHome = PetName;
+  string HasReturn(PetName); 
+4.3.5 String operators:+
+  concatenarea a doua string, aceasta nu este comutativa.
+  string unu = "unu"; string doi = "doi";
+  cout<< unu + "&"+ doi<<endl;
+  cout<< doi + "&"+unu<<endl;
+4.3.6 String operators:+
+  nu poate concatena literals string String = "A" + "B"; - nu poate efectua această operație.
+4.3.7 String operators:+=
+  string intrebare = "to be";
+  intrebare += "or not to be"; => "to be or not to be"
+4.3.8 Inputting string
+  cin tratează spatiile ca delimitatori si permite inserarea unui singur cuvant.
+4.3.9 Inputting string
+  pentru inserarea unei linii de text utilizați functia getline().
+  getline(cin, liniadetext);
+4.3.10 Comparing string
+  string pot fi comparați, ca de exemplu introducerea unei parole. Se poate utiliza operatorul ==
+4.3.11 Comparing string
+  Se pot utiliza si operatorii: < > >= <= != aceasta realizandu-se in ordine alfabetica unde "a" > "A";
+4.3.12 Comparing string
+  In programarea obiect datele si obiectele sunt in același obiect
+  object.member_function();
+  secret.compare(password); <=> password.compare(secret);
+4.3.13 Comparing string
+  str1.compare(str2) == 0 => when Str1 == str2
+  str1.compare(str2) >0      when str1 > str2
+  str1.compare(str2)<0       when str1<str2
+4.4.1 Substrings
 
 
 
@@ -52,3 +108,5 @@ Pointerul returnat de new este de tipul int**.
 
 
 
+
+<end 
