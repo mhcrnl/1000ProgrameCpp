@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1480096670 source:/home/mhcrnl/Desktop/Year2016/1000ProgrameCpp/034treinumere/main.cpp
+	<iostream>
+	<fstream>
+	<string>
+

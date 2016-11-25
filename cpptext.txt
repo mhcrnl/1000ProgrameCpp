@@ -97,8 +97,12 @@ double((int(Short)+int(char))+double(Float)) conversie la Double
   str1.compare(str2) >0      when str1 > str2
   str1.compare(str2)<0       when str1<str2
 4.4.1 Substrings
-
-
+  o parte dintr-un string este denumit substring, dacă se dorește crearea unui nou string se utilizează substr()
+ 	newstr=oldstr.substr(substring_start_position, length_of_substring)
+4.4.2 The length of a string
+  int string_size = S.size();
+  int string_length = S.length()
+   ambele functii returnează numărul de caractere din stringul S.
 
 
 

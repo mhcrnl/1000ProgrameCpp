@@ -1,0 +1,4 @@
+Cel mai mare numar dintre: 213 si 345 este 345.
+Cel mai mare numar dintre: 234 si 456 este 456.
+Cel mai mare numar dintre: 256 si 9040 este 9040.
+Cel mai mare numar dintre: 678 si 123 este 678.
