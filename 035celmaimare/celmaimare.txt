@@ -1,0 +1,8 @@
+Numere introduse: 34MAximul: 23
+Numere introduse: 56MAximul: 34
+Numere introduse: 90MAximul: 56
+Numere introduse: 45MAximul: 90
+Numere introduse: -1MAximul: 90
+Numere introduse: 12 23 45 65 78 -1 MAXIMUL ESTE: 78
+Numere introduse: 23 45 56 78 90 190 456 67 -1 MAXIMUL ESTE: 456
+Numere introduse: 23 34 56 78 100 -1 MAXIMUL ESTE: 100

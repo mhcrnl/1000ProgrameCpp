@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1480145808 source:/home/mhcrnl/Documents/Year2016/1000ProgrameCpp/036ParImpar/main.cpp
+	<iostream>
+	<fstream>
+	<string>
+

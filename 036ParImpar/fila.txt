@@ -1,0 +1,2 @@
+Numere introduse: 12Numere introduse: 12 Numere introduse: 67 Numere introduse: 90 Numere introduse: 78 Numere introduse: 76 Numere introduse: 75 Numere introduse: 0 Numere pare: 4Numere impare: 2
+Numere introduse: 34 67 89 45 98 97 0 Numere pare: 2Numere impare: 4
