@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1480227958 source:/home/mhcrnl/Desktop/Year2016/1000ProgrameCpp/037openGlfirstProg/main.c
+	<stdio.h>
+	<stdlib.h>
+	<X11/X.h>
+	<X11/Xlib.h>
+	<GL/gl.h>
+	<GL/glx.h>
+	<GL/glu.h>
+

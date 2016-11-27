@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1480229160 source:/home/mhcrnl/Desktop/Year2016/1000ProgrameCpp/038openglFirst/main.cpp
+	"GL/freeglut.h"
+	"GL/gl.h"
+
