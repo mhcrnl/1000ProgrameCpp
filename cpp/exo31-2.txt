@@ -1,0 +1,28 @@
+Q:Combien de dents possede un elephant adulte
+32
+-> de 6 a 10
+beaucoup
+24
+2
+
+Q: Laquelle des expressions suivantes est un prototype de fonction
+int f(0);
+int f(int 0);
+-> int f(int i);
+int f(i);
+
+Q:Qui pose des questions stupides
+le prof. de math
+mon copain/ma copine
+les auteurs de ce livre
+moi
+le prof. d'info
+->personne, il n'y a pas de question stupide
+les sondages
+
+Q: Quel signe est le plus etrange
+ #
+ ->
+->->##<-
+#b
+a
