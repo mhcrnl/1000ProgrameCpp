@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1481124448 source:/home/mhcrnl/Desktop/Year2016/1000ProgrameCpp/057CppIex7/main.cpp
+	<iostream>
+	<exception>
+	<stdexcept>
+
