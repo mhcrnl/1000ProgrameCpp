@@ -2,6 +2,33 @@
 
 using namespace std;
 
+enum luni{IAN = 1, FEB, MAR, APR, MAI, IUN, IUL, AUG, SEP,OCT, NOE, DEC};
+
+luni operator+ (luni luna, int nrLuna){
+    return luni((int(luna)+nrLuna)%12);
+}
+/**
+Supra incarcarea operatorului operator<< in functie de sine statatoare pt. definirea lunii
+*/
+ostream& operator<<(ostream &strm, luni luna){
+    switch(int(luna)){
+        case IAN:strm<<"Ianuarie"; break;
+        case FEB:strm<<"Februarie"; break;
+        case MAR:strm<<"Martie"; break;
+        case APR:strm<<"Aprilie"; break;
+        case MAI:strm<<"Mai"; break;
+        case IUN:strm<<"Iunie"; break;
+        case IUL:strm<<"Iulie"; break;
+        case AUG:strm<<"August"; break;
+        case SEP:strm<<"Septembrie"; break;
+        case OCT:strm<<"Octombrie"; break;
+        case NOE:strm<<"Noembrie"; break;
+        case DEC:strm<<"Decembrie"; break;
+        default: strm<< "Nu mai sunt luni in an!!!"; break;
+    }
+    return strm;
+}
+
 class Cheltuieli{
     /**
     Variabilele clasei in modul private
@@ -10,7 +37,7 @@ class Cheltuieli{
     double intretinere;
     double electricitate;
     double teldigi;
-    enum luni{IAN = 1, FEB, MAR, APR, MAI, IUN, IUL, AUG, SEP,OCT, NOE, DEC};
+
     /** Functiile clasei declarate in modul public */
 public:
     /** Constructorul clasei fara/cu parametrii */
@@ -32,6 +59,8 @@ public:
     void setTeldigi(double teldigi);
     /** Returneaza valoarea facturii telefon digi*/
     double getTeldigi(void);
+    /** Cheltuieli totale calculate lunar*/
+    double cheltuieliLunare(void);
 };
 /** Constructorul cu parametrii a fost definit */
 Cheltuieli::Cheltuieli(double upcFac, double intretinereFac, double electricitateFac, double teldigiFac){
@@ -79,6 +108,10 @@ double Cheltuieli::getUpc(){
     return upc;
 }
 
+double Cheltuieli::cheltuieliLunare(){
+    return upc+intretinere+electricitate+teldigi;
+}
+
 int main()
 {
     cout << "Hello world!" << endl;
@@ -96,5 +129,7 @@ int main()
     cout<<cheltDec.getUpc()+cheltDec.getIntretinere()+cheltDec.getElectricitate()+cheltDec.getTeldigi()<<endl;
     cout<<cheltIan.getUpc()+cheltIan.getIntretinere()+cheltIan.getElectricitate()+cheltIan.getTeldigi()<<endl;
 
+    luni luna=static_cast<luni>(1);
+    cout<<"Cheltuieli Totale: "<<luna+12<<" : "<<cheltDec.cheltuieliLunare()<<endl;
     return 0;
 }
